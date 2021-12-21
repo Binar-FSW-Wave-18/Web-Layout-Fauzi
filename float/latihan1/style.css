@@ -9,8 +9,8 @@ body {
   color: #444;
   font-family: sans-serif;
 
-  border-top: 10px solid #1098ad;
-  position: relative;
+  border-top: 10px solid #8A1C7C;
+  /* position: relative; */
 }
 
 .container {
@@ -46,8 +46,8 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
+  border-top: 5px solid #8A1C7C;
+  border-bottom: 5px solid #8A1C7C;
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
@@ -58,7 +58,7 @@ aside {
 h1,
 h2,
 h3 {
-  color: #1098ad;
+  color: #8A1C7C;
 }
 
 h1 {
@@ -163,13 +163,13 @@ article p:first-child {
 
 /* Styling links */
 a:link {
-  color: #1098ad;
+  color: #8A1C7C;;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #1098ad;
+  color: #8A1C7C;
 }
 
 a:hover {
@@ -228,7 +228,7 @@ h3 + p::first-line {
 
 h2 {
   /* background-color: orange; */
-  position: relative;
+  /* position: relative; */
 }
 
 h2::before {
@@ -265,3 +265,5 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+
