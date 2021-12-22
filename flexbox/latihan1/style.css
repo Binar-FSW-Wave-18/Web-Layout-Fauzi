@@ -9,12 +9,12 @@ body {
   color: #444;
   font-family: sans-serif;
 
-  border-top: 10px solid #8A1C7C;
+  border-top: 10px solid #8a1c7c;
   position: relative;
 }
 
 .container {
-  width: 800px;
+  width: 80%;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -30,6 +30,10 @@ body {
   /* height: 80px; */
 }
 
+.article-content__main {
+  display: flex;
+}
+
 nav {
   font-size: 18px;
   /* text-align: center; */
@@ -37,6 +41,7 @@ nav {
 
 article {
   margin-bottom: 60px;
+  width: 80%;
 }
 
 .post-header {
@@ -46,8 +51,8 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #8A1C7C;
-  border-bottom: 5px solid #8A1C7C;
+  border-top: 5px solid #8a1c7c;
+  border-bottom: 5px solid #8a1c7c;
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
@@ -58,7 +63,7 @@ aside {
 h1,
 h2,
 h3 {
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 h1 {
@@ -136,6 +141,14 @@ li:last-child {
   list-style: none;
 }
 
+.related li {
+  display: flex;
+}
+
+.related li div {
+  margin: 1rem;
+}
+
 body {
   /* background-color: orangered; */
 }
@@ -163,13 +176,13 @@ article p:first-child {
 
 /* Styling links */
 a:link {
-  color: #8A1C7C;;
+  color: #8a1c7c;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 a:hover {
@@ -242,6 +255,10 @@ h2::before {
   position: absolute;
   top: -10px;
   right: -25px;
+}
+
+.article-container {
+  display: flex;
 }
 
 /* Resolving conflicts */
