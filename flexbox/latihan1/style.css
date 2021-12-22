@@ -28,10 +28,6 @@ body {
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
-
-  /* ----1 Main Header---- */
-  display: flex;
-  justify-content: space-between;
 }
 
 nav {
@@ -273,3 +269,34 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* ----TUGAS FLECBOX----- */
+
+.main-header {
+    /* ----1 Main Header---- */
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-header {
+  display: flexbox;
+  justify-content:space-around;
+}
+
+.post-header img {
+  float: left;
+}
+
+/* .container {
+  display: flexbox;
+  justify-content: space-between;
+} */
+
+.post-header {
+  display: flexbox;
+  justify-content: space-between;
+}
+
+article {
+  flex: 20%;
+}

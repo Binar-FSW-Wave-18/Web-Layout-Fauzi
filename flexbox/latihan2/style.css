@@ -156,3 +156,25 @@ body {
   color: #000;
   background-color: #fff;
 }
+
+/* ----TUGAS 2 FLEXBOX---- */
+
+.container {
+  display: flexbox;
+}
+
+.product-img {
+  float: left;
+}
+
+.product-info {
+  float: left;
+}
+.product-details {
+  float: right;
+}
+
+.price {
+  float: left;
+  margin-right: 30%;
+}
