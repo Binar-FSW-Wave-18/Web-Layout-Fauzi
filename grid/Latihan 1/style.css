@@ -9,12 +9,12 @@ body {
   color: #444;
   font-family: sans-serif;
 
-  border-top: 10px solid #8A1C7C;
+  border-top: 10px solid #8a1c7c;
   position: relative;
 }
 
 .container {
-  width: 1200px;
+  width: 800px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -46,19 +46,19 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #8A1C7C;
-  border-bottom: 5px solid #8A1C7C;
+  border-top: 5px solid #8a1c7c;
+  border-bottom: 5px solid #8a1c7c;
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 h1 {
@@ -163,13 +163,13 @@ article p:first-child {
 
 /* Styling links */
 a:link {
-  color: #8A1C7C;;
+  color: #8a1c7c;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 a:hover {
@@ -266,13 +266,11 @@ nav p {
   font-size: 18px;
 } */
 
-
 /* Float  */
 
 .author-img {
   float: left;
   margin-bottom: 20px;
-
 }
 
 .author {
@@ -289,25 +287,41 @@ nav {
 
 .clearfix::after {
   clear: both;
-  content: '';
+  content: "";
   display: block;
 }
 
-
-article {
+/* article {
   float: left;
   width: 825px;
-
 }
-
 
 aside {
   float: right;
   width: 300px;
-
 }
-
 
 footer {
   clear: both;
+} */
+
+main {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 1em;
+}
+
+aside {
+  align-self: start;
+}
+
+button {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+.box-author {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }

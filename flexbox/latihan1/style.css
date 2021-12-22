@@ -8,8 +8,7 @@
 body {
   color: #444;
   font-family: sans-serif;
-
-  border-top: 10px solid #8A1C7C;
+  border-top: 10px solid #8a1c7c;
   position: relative;
 }
 
@@ -46,8 +45,8 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #8A1C7C;
-  border-bottom: 5px solid #8A1C7C;
+  border-top: 5px solid #8a1c7c;
+  border-bottom: 5px solid #8a1c7c;
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
@@ -58,7 +57,7 @@ aside {
 h1,
 h2,
 h3 {
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 h1 {
@@ -163,13 +162,13 @@ article p:first-child {
 
 /* Styling links */
 a:link {
-  color: #8A1C7C;;
+  color: #8a1c7c;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 a:hover {
@@ -265,3 +264,35 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+article {
+  flex: 60%;
+}
+
+aside {
+  flex: 40%;
+}
+
+.box-author {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+button {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}

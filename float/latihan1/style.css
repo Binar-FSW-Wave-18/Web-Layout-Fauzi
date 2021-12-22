@@ -9,7 +9,7 @@ body {
   color: #444;
   font-family: sans-serif;
 
-  border-top: 10px solid #8A1C7C;
+  border-top: 10px solid #8a1c7c;
   /* position: relative; */
 }
 
@@ -46,8 +46,8 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #8A1C7C;
-  border-bottom: 5px solid #8A1C7C;
+  border-top: 5px solid #8a1c7c;
+  border-bottom: 5px solid #8a1c7c;
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
@@ -58,7 +58,7 @@ aside {
 h1,
 h2,
 h3 {
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 h1 {
@@ -163,13 +163,13 @@ article p:first-child {
 
 /* Styling links */
 a:link {
-  color: #8A1C7C;;
+  color: #8a1c7c;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #8A1C7C;
+  color: #8a1c7c;
 }
 
 a:hover {
@@ -266,4 +266,24 @@ nav p {
   font-size: 18px;
 } */
 
+h1 {
+  float: left;
+}
 
+nav {
+  float: right;
+}
+
+article {
+  float: left;
+  width: 58%;
+}
+
+aside {
+  float: right;
+  width: 32%;
+}
+
+footer {
+  clear: both;
+}
