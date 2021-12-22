@@ -266,4 +266,51 @@ nav p {
   font-size: 18px;
 } */
 
+/* ----Tugas Float---- */
+h1 {
+  float: left;
+  margin-right: 80px;
+}
 
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  float: left;
+  width: 825px;
+}
+
+aside {
+  float: right;
+  width: 380px;
+}
+
+.container{
+  width: 1250px;
+}
+
+footer {
+  clear: both;
+}
+
+.clearfix::after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+h2::before {
+  float: right;
+  position: relative;  
+}
+
+button {
+  bottom: -80px;
+}

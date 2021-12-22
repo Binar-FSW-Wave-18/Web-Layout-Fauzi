@@ -28,6 +28,10 @@ body {
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
+
+  /* ----1 Main Header---- */
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
@@ -42,6 +46,7 @@ article {
 .post-header {
   margin-bottom: 40px;
   /* position: relative; */
+  justify-content: flex-start;
 }
 
 aside {
@@ -52,6 +57,7 @@ aside {
   padding-bottom: 50px; */
   padding: 50px 0;
   width: 500px;
+    
 }
 
 /* SMALLER ELEMENTS */
@@ -138,6 +144,8 @@ li:last-child {
 
 body {
   /* background-color: orangered; */
+
+  display: flexbox;
 }
 
 /* .first-li {

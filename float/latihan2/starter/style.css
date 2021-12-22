@@ -156,3 +156,21 @@ body {
   color: #000;
   background-color: #fff;
 }
+
+/* ---TUGAS FLOAT */
+
+.product-img{
+  float: left;
+}
+
+.product-info {
+  float: left;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+}
