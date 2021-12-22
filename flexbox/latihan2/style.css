@@ -159,19 +159,17 @@ body {
 
 /* ----TUGAS 2 FLEXBOX---- */
 
-.container {
-  display: flexbox;
+body {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.product-img {
-  float: left;
+.product-title{
+  text-align: center;
 }
 
-.product-info {
-  float: left;
-}
-.product-details {
-  float: right;
+.container{
+  display: flex;
 }
 
 .price {

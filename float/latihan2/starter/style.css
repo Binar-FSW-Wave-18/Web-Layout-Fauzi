@@ -159,18 +159,26 @@ body {
 
 /* ---TUGAS FLOAT */
 
-.product-img{
+.product-img {
   float: left;
 }
 
 .product-info {
   float: left;
 }
+.product-details {
+  float: right;
+}
 
 .price {
   float: left;
+  margin-right: 30%;
 }
 
-.shipping {
-  float: right;
+.add-cart{
+  margin-top: 5px;
+}
+
+.product-title{
+  margin-bottom: 5px;
 }

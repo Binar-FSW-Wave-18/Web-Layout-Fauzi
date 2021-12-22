@@ -156,3 +156,25 @@ body {
   color: #000;
   background-color: #fff;
 }
+
+/* ----TUGAS 2 GRID---- */
+
+.product {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.product-title {
+  grid-column: 1/4;
+}
+
+.add-cart{
+  grid-column: 4/1;
+}
+
+.price {
+  float: left;
+  margin-right: 30%;
+  margin-top: -9px;
+}

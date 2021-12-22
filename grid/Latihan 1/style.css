@@ -311,3 +311,23 @@ aside {
 footer {
   clear: both;
 }
+
+/* ----TUGAS 1 GRID-----  */
+
+.container{
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.main-header{
+  grid-column: 1/4;
+}
+
+.post-header{
+  grid-column: 2/3;
+}
+
+aside{
+  grid-column: 2/4;
+}
